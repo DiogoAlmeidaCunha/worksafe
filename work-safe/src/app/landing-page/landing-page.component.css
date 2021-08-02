@@ -1,5 +1,16 @@
 
 .circle{
-    width: 94%;
-    height: 94%;
+    position: absolute;
+    width: 54%;
+    height: 75%;
+    z-index: -1;
+    right: 0;
+}
+
+.team{
+    width: 54%;
+    height: 84%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
 }

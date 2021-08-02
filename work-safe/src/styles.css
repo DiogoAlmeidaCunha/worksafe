@@ -5,6 +5,10 @@ h1,h2,h3,h4,h5 {
     color: #273460;
 }
 
+h1{
+    font-size: calc(100% + 2vw + 2vh);
+}
+
 p {
     font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
     color: #05cf9f;
@@ -32,6 +36,24 @@ button{
     border-radius: 20px;
     font-family: monospace;
     transition: 1.4s;
+}
+
+.btn2{
+    background-color:#05cf9f ;
+    border-color: #05cf9f;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+.btn3{
+    background-color:#ffffff ;
+    border-color: #273460;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #273460;
 }
 
 button, a{
